@@ -34,5 +34,5 @@ host=172.31.75.175 user=trademaster dbname=postgres sslmode=disable password=RVH
   - Оно поддерживает 1-to-1 и групповой чат с использованием канала связи;
 + [Пример приложения чата при поддержке Redis](https://levelup.gitconnected.com/building-chat-service-in-golang-and-websockets-backed-by-redis-b42a8784636c)
   - socket.io используется для соединения сервера и клиента;
-  - была развернута структура PUBSUB для поддержки Say, Join and Leave;
+  - развернута структура PUBSUB для поддержки Say, Join and Leave;
   - поддержка Redis и Redis-Persistence;
