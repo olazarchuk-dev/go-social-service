@@ -29,11 +29,11 @@ host=172.31.75.175 user=trademaster dbname=postgres sslmode=disable password=RVH
 
 + [Работа с Websockets и Socket.IO в Go — Учебник](https://tutorialedge.net/golang/golang-websockets-tutorial)
 + [How to Use Websockets in Golang: Best Tools and Step-by-Step Guide](https://yalantis.com/blog/how-to-build-websockets-in-go)
-+ [Пример приложение чата](https://github.com/kyopark2014/webchat-golang-socketio)
++ [Пример приложения чата](https://github.com/kyopark2014/webchat-golang-socketio)
   - В котором socket.io используется для соединения сервера и клиента;
   - В этом проекте была развернута структура PUBSUB для поддержки Say, Join and Leave;
   - Оно поддерживает 1-to-1 и групповой чат с использованием канала связи;
-+ [Пример приложение чата](https://levelup.gitconnected.com/building-chat-service-in-golang-and-websockets-backed-by-redis-b42a8784636c)
++ [Пример приложения чата при поддержке Redis](https://levelup.gitconnected.com/building-chat-service-in-golang-and-websockets-backed-by-redis-b42a8784636c)
   - socket.io используется для соединения сервера и клиента;
   - была развернута структура PUBSUB для поддержки Say, Join and Leave;
-  - при поддержке Redis и Redis Persistence;
+  - поддержка Redis и Redis-Persistence;
