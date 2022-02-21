@@ -18,3 +18,10 @@ CREATE INDEX idx_contacts_deleted_at ON "contacts"(deleted_at)
 host=172.31.75.175 user=trademaster dbname=postgres sslmode=disable password=RVHmBTK6In1nvGryKxEy
 8000
 ```
+
+* `Socket.IO` — это библиотека JavaScript для веб-приложений реального времени (RTA). Он обеспечивает двустороннюю связь в реальном времени между веб-клиентами и серверами.
+* [Socket.IO — Краткое руководство](https://coderlessons.com/tutorials/kompiuternoe-programmirovanie/uznaite-socket-io/socket-io-kratkoe-rukovodstvo)
+
+* `WebSocket` - это протокол передачи данных, основанный на протоколе TCP обеспечивающий обмен сообщениями между клиентом и сервером в режиме реального времени.
+* [Протокол WebSocket — Краткое руководство](https://nodejsdev.ru/doc/websocket)
+
