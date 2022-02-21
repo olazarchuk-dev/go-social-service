@@ -25,10 +25,10 @@ host=172.31.75.175 user=trademaster dbname=postgres sslmode=disable password=RVH
 * `WebSocket` - это протокол передачи данных, основанный на протоколе TCP обеспечивающий обмен сообщениями между клиентом и сервером в режиме реального времени.
 * [Протокол WebSocket — Краткое руководство](https://nodejsdev.ru/doc/websocket)
 * [Работа с Websockets и Socket.IO в Go — Учебник](https://tutorialedge.net/golang/golang-websockets-tutorial)
+* [Как использовать веб-сокеты в Golang — Пошаговое руководство](https://yalantis.com/blog/how-to-build-websockets-in-go)
 
 ---
 
-+ [How to Use Websockets in Golang: Best Tools and Step-by-Step Guide](https://yalantis.com/blog/how-to-build-websockets-in-go)
 + [Пример приложения чата](https://github.com/kyopark2014/webchat-golang-socketio)
   - В котором socket.io используется для соединения сервера и клиента;
   - В этом проекте была развернута структура PUBSUB для поддержки Say, Join and Leave;
