@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	"github.com/gorilla/mux"
-	"go-contacts/app"
-	"go-contacts/controllers"
 	"net/http"
 	"os"
+	"social-service-sync/app"
+	"social-service-sync/controllers"
 )
 
 func main() {
@@ -24,7 +24,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8000" //localhost
+		port = "8080" //localhost
 	}
 
 	fmt.Println(port)

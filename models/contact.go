@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	u "go-contacts/utils"
+	u "social-service-sync/utils"
 )
 
 type Contact struct {
@@ -36,33 +36,33 @@ func (contact *Contact) Validate() (map[string]interface{}, bool) {
 	return u.Message(true, "success"), true
 }
 
-func (contact *Contact) Create() (map[string]interface{}) {
+func (contact *Contact) Create() map[string]interface{} {
 
 	if resp, ok := contact.Validate(); !ok {
 		return resp
 	}
 
-	GetDB().Create(contact)
+	DbConn().Create(contact)
 
 	resp := u.Message(true, "success")
 	resp["contact"] = contact
 	return resp
 }
 
-func GetContact(id uint) (*Contact) {
+func GetContact(id uint) *Contact {
 
 	contact := &Contact{}
-	err := GetDB().Table("contacts").Where("id = ?", id).First(contact).Error
+	err := DbConn().Table("contacts").Where("id = ?", id).First(contact).Error
 	if err != nil {
 		return nil
 	}
 	return contact
 }
 
-func GetContacts(user uint) ([]*Contact) {
+func GetContacts(user uint) []*Contact {
 
 	contacts := make([]*Contact, 0)
-	err := GetDB().Table("contacts").Where("user_id = ?", user).Find(&contacts).Error
+	err := DbConn().Table("contacts").Where("user_id = ?", user).Find(&contacts).Error
 	if err != nil {
 		fmt.Println(err)
 		return nil
