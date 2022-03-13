@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"encoding/json"
+	"go-social-service/models"
+	u "go-social-service/utils"
 	"net/http"
-	"social-service-sync/models"
-	u "social-service-sync/utils"
 )
 
 var CreateContact = func(w http.ResponseWriter, r *http.Request) {

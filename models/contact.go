@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 	"github.com/jinzhu/gorm"
-	u "social-service-sync/utils"
+	u "go-social-service/utils"
 )
 
 type Contact struct {

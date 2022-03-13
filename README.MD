@@ -1,4 +1,4 @@
-# social-service-sync
+# go-social-service
 
 + Language: `Golang`
 + Пакеты:
@@ -94,3 +94,9 @@ host=172.31.75.175 user=trademaster dbname=postgres sslmode=disable password=RVH
   - развернута структура PUBSUB для поддержки Say, Join and Leave;
   - поддержка Redis и Redis-Persistence;
 + [Примеры Node.js Websocket с Socket.io](https://rukovodstvo.net/posts/id_1357)
+
+
+---
+
+* `Tutorial`: https://tproger.ru/translations/deploy-a-secure-golang-rest-api
+* `Repo`: https://github.com/adigunhammedolalekan/go-contacts

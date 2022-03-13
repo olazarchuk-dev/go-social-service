@@ -1,4 +1,4 @@
-module social-service-sync
+module go-social-service
 
 go 1.13
 

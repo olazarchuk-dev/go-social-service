@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
+	"go-social-service/models"
+	u "go-social-service/utils"
 	"net/http"
 	"os"
-	"social-service-sync/models"
-	u "social-service-sync/utils"
 	"strings"
 )
 

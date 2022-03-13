@@ -5,8 +5,8 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/joho/godotenv"
+	"go-social-service/app/config"
 	"log"
-	"social-service-sync/app/config"
 )
 
 var db *gorm.DB

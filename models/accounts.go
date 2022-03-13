@@ -3,9 +3,9 @@ package models
 import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/gorm"
+	u "go-social-service/utils"
 	"golang.org/x/crypto/bcrypt"
 	"os"
-	u "social-service-sync/utils"
 	"strings"
 )
 

@@ -1,8 +1,8 @@
 package app
 
 import (
+	u "go-social-service/utils"
 	"net/http"
-	u "social-service-sync/utils"
 )
 
 var NotFoundHandler = func(next http.Handler) http.Handler {
